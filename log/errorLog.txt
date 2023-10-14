@@ -1,0 +1,4 @@
+Oct/10/2023	15:07:07	9d1765bc-3e02-4dcf-9ee1-00e854d7487e	Error	Not allowed by CORS
+Oct/10/2023	15:29:16	36f99c7d-75bd-4b07-a631-fd3e453cee3a	Error	ENOENT: no such file or directory, stat '/home/nk/Desktop/Nodejs/praitceServer/routes/view/index.html'
+Oct/10/2023	15:29:17	0e99b324-106a-443f-b630-8a1fe07d4ae0	Error	ENOENT: no such file or directory, stat '/home/nk/Desktop/Nodejs/praitceServer/routes/view/index.html'
+Oct/14/2023	13:44:17	729f37c3-d343-4814-ad51-222c20015a35	SyntaxError	Unexpected token e in JSON at position 0
