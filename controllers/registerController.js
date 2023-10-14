@@ -17,7 +17,6 @@ const handleNewUser = async (req, res) => {
       email: email,
       password: hashPassword,
     });
-    console.log(result, " from register");
     res.status(201).json({ success: true, message: `Register successfully.` });
   } catch (err) {
     res.status(500).json({ message: err.message });

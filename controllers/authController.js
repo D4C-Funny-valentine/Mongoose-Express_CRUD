@@ -41,7 +41,6 @@ const handleUserLogin = async (req, res) => {
 
     foundUser.refreshToken = refreshToken;
     const result = await foundUser.save();
-    console.log(result,"from Login")
     res.status(201).json({ success: true, accessToken });
   } else {
     return res.status(401).json({ message: "Incorrect password" });
